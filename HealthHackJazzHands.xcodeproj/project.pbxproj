@@ -18,6 +18,7 @@
 		A38CECC11DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */; };
 		A38CECC21DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */; };
 		A38CECC31DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */; };
+		A38CECC51DB20CDC004CAEB1 /* SubtitleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CECC41DB20CDC004CAEB1 /* SubtitleIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A38CECB21DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHackJazzHandsUITests.swift; sourceTree = "<group>"; };
 		A38CECB41DB20020004CAEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RogueOneTrailer.srt; sourceTree = "<group>"; };
+		A38CECC41DB20CDC004CAEB1 /* SubtitleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				A38CEC9B1DB20020004CAEB1 /* LaunchScreen.storyboard */,
 				A38CEC9E1DB20020004CAEB1 /* Info.plist */,
 				A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */,
+				A38CECC41DB20CDC004CAEB1 /* SubtitleIO.swift */,
 			);
 			path = HealthHackJazzHands;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */,
 				A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */,
 				A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */,
+				A38CECC51DB20CDC004CAEB1 /* SubtitleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				A38CECB91DB20020004CAEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A38CECBA1DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHandsTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				A38CECBC1DB20020004CAEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A38CECBD1DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHandsUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				A38CECBF1DB20020004CAEB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

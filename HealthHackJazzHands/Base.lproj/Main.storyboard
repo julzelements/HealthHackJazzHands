@@ -25,6 +25,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bok-yG-NKz">
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="playSubtitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jkZ-hw-CBd"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Subtitle Number" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vuo-4U-z60">
                                 <nil key="textColor"/>
@@ -42,6 +45,10 @@
                             <constraint firstItem="vuo-4U-z60" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SuR-Zy-hkP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="subtitleDisplay" destination="azT-6V-bGo" id="nH1-aw-wlI"/>
+                        <outlet property="subtitleInteger" destination="vuo-4U-z60" id="M39-F7-1T3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
