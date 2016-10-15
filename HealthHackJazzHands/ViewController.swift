@@ -12,15 +12,43 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var subtitleInteger: UITextField!
     @IBOutlet weak var subtitleDisplay: UILabel!
-    
+  
+    var startedAt = Date()
+    var subtitles = Subtitle()
+    var timer = Timer()
+  
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
   
     @IBAction func playSubtitle(_ sender: AnyObject) {
-        subtitleDisplay.text = subtitleInteger.text
+        subtitles = Subtitle()
+        
+      // stop previous timer (if any)
+      // lookup stanza to play
+      // start timer
+        //  subtitleDisplay.text = subtitleInteger.text
+        let i = Int(subtitleInteger.text!) ?? 0
+        
+        startShowing(index: i)
+    }
     
+    func startShowing(index: Int) {
+        let stanza = subtitles.Stanzas[index]
+        startedAt = Date(timeIntervalSinceNow: -stanza.on_at)
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.updateSubtitle), userInfo: nil, repeats: true)
+    }
+    
+    func stopShowing() {
+        timer.invalidate()
+        subtitleDisplay.text = "Subtitle player stopped"
+    }
+  
+    func updateSubtitle() {
+        let elapsed = startedAt.timeIntervalSinceNow
+        // subtitleDisplay.text = elapsed.description
+        subtitleDisplay.text = startedAt.description
     }
 
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72194C731DB211FD002A68E5 /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C721DB211FD002A68E5 /* Subtitle.swift */; };
+		72194C751DB2124A002A68E5 /* Stanza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C741DB2124A002A68E5 /* Stanza.swift */; };
+		72194C771DB219DF002A68E5 /* SubtitleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C761DB219DF002A68E5 /* SubtitleLoader.swift */; };
+		72194C791DB2216B002A68E5 /* SubtitlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */; };
 		A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */; };
 		A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC911DB20020004CAEB1 /* ViewController.swift */; };
 		A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC931DB20020004CAEB1 /* Main.storyboard */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72194C721DB211FD002A68E5 /* Subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+		72194C741DB2124A002A68E5 /* Stanza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stanza.swift; sourceTree = "<group>"; };
+		72194C761DB219DF002A68E5 /* SubtitleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleLoader.swift; sourceTree = "<group>"; };
+		72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlePlayer.swift; sourceTree = "<group>"; };
 		A38CEC8C1DB20020004CAEB1 /* HealthHackJazzHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHackJazzHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38CEC911DB20020004CAEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +122,10 @@
 				A38CEC9E1DB20020004CAEB1 /* Info.plist */,
 				A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */,
 				A38CECC41DB20CDC004CAEB1 /* SubtitleIO.swift */,
+				72194C721DB211FD002A68E5 /* Subtitle.swift */,
+				72194C741DB2124A002A68E5 /* Stanza.swift */,
+				72194C761DB219DF002A68E5 /* SubtitleLoader.swift */,
+				72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */,
 			);
 			path = HealthHackJazzHands;
 			sourceTree = "<group>";
@@ -274,10 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72194C791DB2216B002A68E5 /* SubtitlePlayer.swift in Sources */,
+				72194C771DB219DF002A68E5 /* SubtitleLoader.swift in Sources */,
+				72194C751DB2124A002A68E5 /* Stanza.swift in Sources */,
 				A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */,
 				A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */,
 				A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */,
 				A38CECC51DB20CDC004CAEB1 /* SubtitleIO.swift in Sources */,
+				72194C731DB211FD002A68E5 /* Subtitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
