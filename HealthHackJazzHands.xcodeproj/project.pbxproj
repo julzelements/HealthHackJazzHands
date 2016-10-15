@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */; };
+		A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC911DB20020004CAEB1 /* ViewController.swift */; };
+		A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC931DB20020004CAEB1 /* Main.storyboard */; };
+		A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */; };
+		A38CEC9A1DB20020004CAEB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC991DB20020004CAEB1 /* Assets.xcassets */; };
+		A38CEC9D1DB20020004CAEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC9B1DB20020004CAEB1 /* LaunchScreen.storyboard */; };
+		A38CECA81DB20020004CAEB1 /* HealthHackJazzHandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CECA71DB20020004CAEB1 /* HealthHackJazzHandsTests.swift */; };
+		A38CECB31DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CECB21DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A38CECA41DB20020004CAEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38CEC841DB20020004CAEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38CEC8B1DB20020004CAEB1;
+			remoteInfo = HealthHackJazzHands;
+		};
+		A38CECAF1DB20020004CAEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38CEC841DB20020004CAEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38CEC8B1DB20020004CAEB1;
+			remoteInfo = HealthHackJazzHands;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A38CEC8C1DB20020004CAEB1 /* HealthHackJazzHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHackJazzHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A38CEC911DB20020004CAEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A38CEC941DB20020004CAEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A38CEC971DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthHackJazzHands.xcdatamodel; sourceTree = "<group>"; };
+		A38CEC991DB20020004CAEB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A38CEC9C1DB20020004CAEB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A38CEC9E1DB20020004CAEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38CECA31DB20020004CAEB1 /* HealthHackJazzHandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthHackJazzHandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38CECA71DB20020004CAEB1 /* HealthHackJazzHandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHackJazzHandsTests.swift; sourceTree = "<group>"; };
+		A38CECA91DB20020004CAEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38CECAE1DB20020004CAEB1 /* HealthHackJazzHandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthHackJazzHandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38CECB21DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHackJazzHandsUITests.swift; sourceTree = "<group>"; };
+		A38CECB41DB20020004CAEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38CEC891DB20020004CAEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38CECA01DB20020004CAEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38CECAB1DB20020004CAEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38CEC831DB20020004CAEB1 = {
+			isa = PBXGroup;
+			children = (
+				A38CEC8E1DB20020004CAEB1 /* HealthHackJazzHands */,
+				A38CECA61DB20020004CAEB1 /* HealthHackJazzHandsTests */,
+				A38CECB11DB20020004CAEB1 /* HealthHackJazzHandsUITests */,
+				A38CEC8D1DB20020004CAEB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38CEC8D1DB20020004CAEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38CEC8C1DB20020004CAEB1 /* HealthHackJazzHands.app */,
+				A38CECA31DB20020004CAEB1 /* HealthHackJazzHandsTests.xctest */,
+				A38CECAE1DB20020004CAEB1 /* HealthHackJazzHandsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38CEC8E1DB20020004CAEB1 /* HealthHackJazzHands */ = {
+			isa = PBXGroup;
+			children = (
+				A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */,
+				A38CEC911DB20020004CAEB1 /* ViewController.swift */,
+				A38CEC931DB20020004CAEB1 /* Main.storyboard */,
+				A38CEC991DB20020004CAEB1 /* Assets.xcassets */,
+				A38CEC9B1DB20020004CAEB1 /* LaunchScreen.storyboard */,
+				A38CEC9E1DB20020004CAEB1 /* Info.plist */,
+				A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */,
+			);
+			path = HealthHackJazzHands;
+			sourceTree = "<group>";
+		};
+		A38CECA61DB20020004CAEB1 /* HealthHackJazzHandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A38CECA71DB20020004CAEB1 /* HealthHackJazzHandsTests.swift */,
+				A38CECA91DB20020004CAEB1 /* Info.plist */,
+			);
+			path = HealthHackJazzHandsTests;
+			sourceTree = "<group>";
+		};
+		A38CECB11DB20020004CAEB1 /* HealthHackJazzHandsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A38CECB21DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift */,
+				A38CECB41DB20020004CAEB1 /* Info.plist */,
+			);
+			path = HealthHackJazzHandsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38CEC8B1DB20020004CAEB1 /* HealthHackJazzHands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38CECB71DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHands" */;
+			buildPhases = (
+				A38CEC881DB20020004CAEB1 /* Sources */,
+				A38CEC891DB20020004CAEB1 /* Frameworks */,
+				A38CEC8A1DB20020004CAEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthHackJazzHands;
+			productName = HealthHackJazzHands;
+			productReference = A38CEC8C1DB20020004CAEB1 /* HealthHackJazzHands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A38CECA21DB20020004CAEB1 /* HealthHackJazzHandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38CECBA1DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHandsTests" */;
+			buildPhases = (
+				A38CEC9F1DB20020004CAEB1 /* Sources */,
+				A38CECA01DB20020004CAEB1 /* Frameworks */,
+				A38CECA11DB20020004CAEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38CECA51DB20020004CAEB1 /* PBXTargetDependency */,
+			);
+			name = HealthHackJazzHandsTests;
+			productName = HealthHackJazzHandsTests;
+			productReference = A38CECA31DB20020004CAEB1 /* HealthHackJazzHandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A38CECAD1DB20020004CAEB1 /* HealthHackJazzHandsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38CECBD1DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHandsUITests" */;
+			buildPhases = (
+				A38CECAA1DB20020004CAEB1 /* Sources */,
+				A38CECAB1DB20020004CAEB1 /* Frameworks */,
+				A38CECAC1DB20020004CAEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38CECB01DB20020004CAEB1 /* PBXTargetDependency */,
+			);
+			name = HealthHackJazzHandsUITests;
+			productName = HealthHackJazzHandsUITests;
+			productReference = A38CECAE1DB20020004CAEB1 /* HealthHackJazzHandsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38CEC841DB20020004CAEB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Julian Scharf";
+				TargetAttributes = {
+					A38CEC8B1DB20020004CAEB1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A38CECA21DB20020004CAEB1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A38CEC8B1DB20020004CAEB1;
+					};
+					A38CECAD1DB20020004CAEB1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A38CEC8B1DB20020004CAEB1;
+					};
+				};
+			};
+			buildConfigurationList = A38CEC871DB20020004CAEB1 /* Build configuration list for PBXProject "HealthHackJazzHands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38CEC831DB20020004CAEB1;
+			productRefGroup = A38CEC8D1DB20020004CAEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38CEC8B1DB20020004CAEB1 /* HealthHackJazzHands */,
+				A38CECA21DB20020004CAEB1 /* HealthHackJazzHandsTests */,
+				A38CECAD1DB20020004CAEB1 /* HealthHackJazzHandsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38CEC8A1DB20020004CAEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38CEC9D1DB20020004CAEB1 /* LaunchScreen.storyboard in Resources */,
+				A38CEC9A1DB20020004CAEB1 /* Assets.xcassets in Resources */,
+				A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38CECA11DB20020004CAEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38CECAC1DB20020004CAEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38CEC881DB20020004CAEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */,
+				A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */,
+				A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38CEC9F1DB20020004CAEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38CECA81DB20020004CAEB1 /* HealthHackJazzHandsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38CECAA1DB20020004CAEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38CECB31DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A38CECA51DB20020004CAEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38CEC8B1DB20020004CAEB1 /* HealthHackJazzHands */;
+			targetProxy = A38CECA41DB20020004CAEB1 /* PBXContainerItemProxy */;
+		};
+		A38CECB01DB20020004CAEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38CEC8B1DB20020004CAEB1 /* HealthHackJazzHands */;
+			targetProxy = A38CECAF1DB20020004CAEB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A38CEC931DB20020004CAEB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38CEC941DB20020004CAEB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A38CEC9B1DB20020004CAEB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38CEC9C1DB20020004CAEB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38CECB51DB20020004CAEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A38CECB61DB20020004CAEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38CECB81DB20020004CAEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthHackJazzHands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A38CECB91DB20020004CAEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthHackJazzHands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A38CECBB1DB20020004CAEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealthHackJazzHandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthHackJazzHands.app/HealthHackJazzHands";
+			};
+			name = Debug;
+		};
+		A38CECBC1DB20020004CAEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealthHackJazzHandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthHackJazzHands.app/HealthHackJazzHands";
+			};
+			name = Release;
+		};
+		A38CECBE1DB20020004CAEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HealthHackJazzHandsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHandsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HealthHackJazzHands;
+			};
+			name = Debug;
+		};
+		A38CECBF1DB20020004CAEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HealthHackJazzHandsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHandsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HealthHackJazzHands;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38CEC871DB20020004CAEB1 /* Build configuration list for PBXProject "HealthHackJazzHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38CECB51DB20020004CAEB1 /* Debug */,
+				A38CECB61DB20020004CAEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38CECB71DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38CECB81DB20020004CAEB1 /* Debug */,
+				A38CECB91DB20020004CAEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A38CECBA1DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38CECBB1DB20020004CAEB1 /* Debug */,
+				A38CECBC1DB20020004CAEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A38CECBD1DB20020004CAEB1 /* Build configuration list for PBXNativeTarget "HealthHackJazzHandsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38CECBE1DB20020004CAEB1 /* Debug */,
+				A38CECBF1DB20020004CAEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A38CEC971DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodel */,
+			);
+			currentVersion = A38CEC971DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodel */;
+			path = HealthHackJazzHands.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A38CEC841DB20020004CAEB1 /* Project object */;
+}
