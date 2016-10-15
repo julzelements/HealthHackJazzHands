@@ -11,6 +11,12 @@
 		72194C751DB2124A002A68E5 /* Stanza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C741DB2124A002A68E5 /* Stanza.swift */; };
 		72194C771DB219DF002A68E5 /* SubtitleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C761DB219DF002A68E5 /* SubtitleLoader.swift */; };
 		72194C791DB2216B002A68E5 /* SubtitlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */; };
+		A3133DA21DB22B7800D35B87 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3133D9F1DB22B7800D35B87 /* AcousticModelEnglish.bundle */; };
+		A3133DA31DB22B7800D35B87 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA01DB22B7800D35B87 /* OpenEars.framework */; };
+		A3133DA41DB22B7800D35B87 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA11DB22B7800D35B87 /* Slt.framework */; };
+		A3133DA81DB22BC200D35B87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA61DB22BC200D35B87 /* AudioToolbox.framework */; };
+		A3133DA91DB22BC200D35B87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA71DB22BC200D35B87 /* AVFoundation.framework */; };
+		A3133DAC1DB232E300D35B87 /* sample.m in Sources */ = {isa = PBXBuildFile; fileRef = A3133DAB1DB232E300D35B87 /* sample.m */; };
 		A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */; };
 		A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC911DB20020004CAEB1 /* ViewController.swift */; };
 		A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC931DB20020004CAEB1 /* Main.storyboard */; };
@@ -47,6 +53,13 @@
 		72194C741DB2124A002A68E5 /* Stanza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stanza.swift; sourceTree = "<group>"; };
 		72194C761DB219DF002A68E5 /* SubtitleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleLoader.swift; sourceTree = "<group>"; };
 		72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlePlayer.swift; sourceTree = "<group>"; };
+		A3133D9F1DB22B7800D35B87 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		A3133DA01DB22B7800D35B87 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		A3133DA11DB22B7800D35B87 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		A3133DA61DB22BC200D35B87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A3133DA71DB22BC200D35B87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3133DAA1DB232E300D35B87 /* HealthHackJazzHands-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthHackJazzHands-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3133DAB1DB232E300D35B87 /* sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sample.m; sourceTree = "<group>"; };
 		A38CEC8C1DB20020004CAEB1 /* HealthHackJazzHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHackJazzHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38CEC911DB20020004CAEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3133DA81DB22BC200D35B87 /* AudioToolbox.framework in Frameworks */,
+				A3133DA91DB22BC200D35B87 /* AVFoundation.framework in Frameworks */,
+				A3133DA41DB22B7800D35B87 /* Slt.framework in Frameworks */,
+				A3133DA31DB22B7800D35B87 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +107,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3133D9E1DB22B7800D35B87 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A3133D9F1DB22B7800D35B87 /* AcousticModelEnglish.bundle */,
+				A3133DA01DB22B7800D35B87 /* OpenEars.framework */,
+				A3133DA11DB22B7800D35B87 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		A3133DA51DB22BC200D35B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3133DA61DB22BC200D35B87 /* AudioToolbox.framework */,
+				A3133DA71DB22BC200D35B87 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A38CEC831DB20020004CAEB1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +133,8 @@
 				A38CECA61DB20020004CAEB1 /* HealthHackJazzHandsTests */,
 				A38CECB11DB20020004CAEB1 /* HealthHackJazzHandsUITests */,
 				A38CEC8D1DB20020004CAEB1 /* Products */,
+				A3133D9E1DB22B7800D35B87 /* Framework */,
+				A3133DA51DB22BC200D35B87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +164,8 @@
 				72194C741DB2124A002A68E5 /* Stanza.swift */,
 				72194C761DB219DF002A68E5 /* SubtitleLoader.swift */,
 				72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */,
+				A3133DAB1DB232E300D35B87 /* sample.m */,
+				A3133DAA1DB232E300D35B87 /* HealthHackJazzHands-Bridging-Header.h */,
 			);
 			path = HealthHackJazzHands;
 			sourceTree = "<group>";
@@ -217,6 +257,7 @@
 					A38CEC8B1DB20020004CAEB1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 32XXXP7QP9;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					A38CECA21DB20020004CAEB1 = {
@@ -259,6 +300,7 @@
 				A38CEC9D1DB20020004CAEB1 /* LaunchScreen.storyboard in Resources */,
 				A38CEC9A1DB20020004CAEB1 /* Assets.xcassets in Resources */,
 				A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */,
+				A3133DA21DB22B7800D35B87 /* AcousticModelEnglish.bundle in Resources */,
 				A38CECC11DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +332,7 @@
 				72194C771DB219DF002A68E5 /* SubtitleLoader.swift in Sources */,
 				72194C751DB2124A002A68E5 /* Stanza.swift in Sources */,
 				A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */,
+				A3133DAC1DB232E300D35B87 /* sample.m in Sources */,
 				A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */,
 				A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */,
 				A38CECC51DB20CDC004CAEB1 /* SubtitleIO.swift in Sources */,
@@ -445,11 +488,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 32XXXP7QP9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = HealthHackJazzHands/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthHackJazzHands/HealthHackJazzHands-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -458,11 +508,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 32XXXP7QP9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = HealthHackJazzHands/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.HealthHackJazzHands;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthHackJazzHands/HealthHackJazzHands-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
