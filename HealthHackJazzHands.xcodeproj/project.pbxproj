@@ -15,6 +15,9 @@
 		A38CEC9D1DB20020004CAEB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC9B1DB20020004CAEB1 /* LaunchScreen.storyboard */; };
 		A38CECA81DB20020004CAEB1 /* HealthHackJazzHandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CECA71DB20020004CAEB1 /* HealthHackJazzHandsTests.swift */; };
 		A38CECB31DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CECB21DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift */; };
+		A38CECC11DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */; };
+		A38CECC21DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */; };
+		A38CECC31DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */ = {isa = PBXBuildFile; fileRef = A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		A38CECAE1DB20020004CAEB1 /* HealthHackJazzHandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthHackJazzHandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38CECB21DB20020004CAEB1 /* HealthHackJazzHandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHackJazzHandsUITests.swift; sourceTree = "<group>"; };
 		A38CECB41DB20020004CAEB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RogueOneTrailer.srt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		A38CEC8E1DB20020004CAEB1 /* HealthHackJazzHands */ = {
 			isa = PBXGroup;
 			children = (
+				A38CECC01DB209F6004CAEB1 /* RogueOneTrailer.srt */,
 				A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */,
 				A38CEC911DB20020004CAEB1 /* ViewController.swift */,
 				A38CEC931DB20020004CAEB1 /* Main.storyboard */,
@@ -239,6 +244,7 @@
 				A38CEC9D1DB20020004CAEB1 /* LaunchScreen.storyboard in Resources */,
 				A38CEC9A1DB20020004CAEB1 /* Assets.xcassets in Resources */,
 				A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */,
+				A38CECC11DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38CECC21DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38CECC31DB209F6004CAEB1 /* RogueOneTrailer.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
