@@ -46,9 +46,17 @@ class ViewController: UIViewController {
     }
   
     func updateSubtitle() {
-        let elapsed = startedAt.timeIntervalSinceNow
-        // subtitleDisplay.text = elapsed.description
-        subtitleDisplay.text = startedAt.description
+        let elapsed = Date().timeIntervalSince(startedAt)
+        for stanza in self.subtitles.Stanzas {
+            if stanza.on_at < elapsed && elapsed <= stanza.off_at {
+                subtitleDisplay.text = stanza.lines[0]
+                return
+            }
+        }
+        subtitleDisplay.text = ""
+//        // let elapsed = startedAt.timeIntervalSinceNow  
+//        // subtitleDisplay.text = elapsed.description
+//        subtitleDisplay.text = elapsed.description
     }
 
 }
