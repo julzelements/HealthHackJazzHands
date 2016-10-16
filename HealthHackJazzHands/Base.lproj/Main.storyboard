@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -61,6 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="151" y="895"/>
         </scene>
         <!--Synchronise View Controller-->
         <scene sceneID="6WY-VG-1Jk">
@@ -83,7 +84,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L1q-sE-PXk">
                                 <color key="backgroundColor" red="1" green="0.90452458124119794" blue="0.67802210963966891" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="qzR-nH-RXX"/>
+                                    <constraint firstAttribute="height" constant="75" id="ZbP-Ov-vfs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -91,7 +92,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J7W-OT-I01">
                                 <color key="backgroundColor" red="1" green="0.28004324185768725" blue="0.82505925251601542" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="YjK-yJ-VFU"/>
+                                    <constraint firstAttribute="height" constant="75" id="POD-O2-oZJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -99,25 +100,33 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="TIME FIRED:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L93-dk-EXO">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="m0d-f8-cyj"/>
+                                    <constraint firstAttribute="height" constant="36" id="8Yf-xZ-d6H"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YK-cT-rX8">
+                                <state key="normal" title="Segue button"/>
+                                <connections>
+                                    <action selector="showMainScreen:" destination="QTD-JN-f7w" eventType="touchUpInside" id="TNq-lI-g1a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="J7W-OT-I01" firstAttribute="centerX" secondItem="ovk-4v-2RV" secondAttribute="centerX" id="D19-s0-fum"/>
-                            <constraint firstItem="L1q-sE-PXk" firstAttribute="trailing" secondItem="J7W-OT-I01" secondAttribute="trailing" id="FHw-AB-oPd"/>
-                            <constraint firstItem="L1q-sE-PXk" firstAttribute="leading" secondItem="J7W-OT-I01" secondAttribute="leading" id="LKT-7s-9fI"/>
-                            <constraint firstItem="L1q-sE-PXk" firstAttribute="trailing" secondItem="xxm-Kn-BbN" secondAttribute="trailingMargin" id="VQZ-k5-JW8"/>
-                            <constraint firstItem="L1q-sE-PXk" firstAttribute="leading" secondItem="xxm-Kn-BbN" secondAttribute="leadingMargin" id="WTj-ul-fjF"/>
-                            <constraint firstAttribute="bottom" secondItem="L93-dk-EXO" secondAttribute="bottom" constant="20" symbolic="YES" id="dhG-kA-rud"/>
-                            <constraint firstItem="J7W-OT-I01" firstAttribute="top" secondItem="L1q-sE-PXk" secondAttribute="bottom" constant="8" symbolic="YES" id="g4b-j7-zYZ"/>
-                            <constraint firstItem="ovk-4v-2RV" firstAttribute="centerX" secondItem="L93-dk-EXO" secondAttribute="centerX" id="mlg-et-w27"/>
-                            <constraint firstItem="L93-dk-EXO" firstAttribute="leading" secondItem="xxm-Kn-BbN" secondAttribute="leadingMargin" constant="51" id="nyv-s3-lOb"/>
-                            <constraint firstItem="L1q-sE-PXk" firstAttribute="top" secondItem="aKi-aV-3q7" secondAttribute="bottom" id="pkl-5c-ssf"/>
-                            <constraint firstItem="ovk-4v-2RV" firstAttribute="centerY" secondItem="xxm-Kn-BbN" secondAttribute="centerY" id="wBx-nZ-RxB"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="trailing" secondItem="xxm-Kn-BbN" secondAttribute="trailingMargin" id="EZM-DX-Jbj"/>
+                            <constraint firstItem="1YK-cT-rX8" firstAttribute="centerX" secondItem="L93-dk-EXO" secondAttribute="centerX" id="FED-8h-imp"/>
+                            <constraint firstItem="L93-dk-EXO" firstAttribute="leading" secondItem="xxm-Kn-BbN" secondAttribute="leadingMargin" constant="51" id="Fd8-GR-eC6"/>
+                            <constraint firstItem="J7W-OT-I01" firstAttribute="top" secondItem="L1q-sE-PXk" secondAttribute="bottom" constant="8" symbolic="YES" id="JOI-li-dHs"/>
+                            <constraint firstItem="ovk-4v-2RV" firstAttribute="centerX" secondItem="1YK-cT-rX8" secondAttribute="centerX" id="Lrp-9C-ZAn"/>
+                            <constraint firstItem="J7W-OT-I01" firstAttribute="centerX" secondItem="ovk-4v-2RV" secondAttribute="centerX" id="MIj-vs-3gB"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="trailing" secondItem="J7W-OT-I01" secondAttribute="trailing" id="TKc-LQ-0xx"/>
+                            <constraint firstAttribute="bottom" secondItem="L93-dk-EXO" secondAttribute="bottom" constant="20" symbolic="YES" id="Wdn-Sf-rxw"/>
+                            <constraint firstItem="1YK-cT-rX8" firstAttribute="top" secondItem="ovk-4v-2RV" secondAttribute="bottom" constant="7" id="kFB-QL-JrO"/>
+                            <constraint firstItem="ovk-4v-2RV" firstAttribute="centerY" secondItem="xxm-Kn-BbN" secondAttribute="centerY" id="mcx-wZ-o8Z"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="top" secondItem="aKi-aV-3q7" secondAttribute="bottom" id="nEf-mI-azI"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="leading" secondItem="xxm-Kn-BbN" secondAttribute="leadingMargin" id="ofj-v7-hcb"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="leading" secondItem="J7W-OT-I01" secondAttribute="leading" id="p4B-Xc-y2W"/>
                         </constraints>
                     </view>
                     <connections>
@@ -125,11 +134,12 @@
                         <outlet property="recordButton" destination="ovk-4v-2RV" id="K8t-7K-149"/>
                         <outlet property="statusTextView" destination="J7W-OT-I01" id="Nm8-m3-GMY"/>
                         <outlet property="timeHeardTextView" destination="L93-dk-EXO" id="oAf-0Y-baY"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="showSubtitles" id="X9J-eB-0ZB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9XK-ay-ZDl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892" y="34.632683658170919"/>
+            <point key="canvasLocation" x="1044" y="117"/>
         </scene>
     </scenes>
 </document>

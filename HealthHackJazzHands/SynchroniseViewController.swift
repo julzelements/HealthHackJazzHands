@@ -31,6 +31,9 @@ class SynchroniseViewController: UIViewController, OEEventsObserverDelegate {
         super.viewDidLoad()
         loadOpenEars()
     }
+    @IBAction func showMainScreen(_ sender: AnyObject) {
+        performSegue(withIdentifier: "showSubtitles", sender: self)
+    }
     
     @IBAction func record(sender: AnyObject) {
         
