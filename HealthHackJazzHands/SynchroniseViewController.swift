@@ -31,9 +31,12 @@ class SynchroniseViewController: UIViewController, OEEventsObserverDelegate {
         super.viewDidLoad()
         loadOpenEars()
     }
-    @IBAction func showMainScreen(_ sender: AnyObject) {
-        performSegue(withIdentifier: "showSubtitles", sender: self)
+
+    
+    @IBAction func dismissView(_ sender: AnyObject) {
+        dismiss(animated: true, completion: nil)
     }
+    
     
     @IBAction func record(sender: AnyObject) {
         
@@ -146,15 +149,6 @@ class SynchroniseViewController: UIViewController, OEEventsObserverDelegate {
     func addWords() {
         //add any thing here that you want to be recognized. Must be in capital letters
         words.append("I DONT GIVE SHITTY JOBS")
-//        words.append("MASSAGE")
-//        words.append("TELEVISION")
-//        words.append("and on this invention")
-        
-//        words.append("FATHER")
-//        words.append("DEVELOPMENT")
-//        words.append("WEAPON")
-//        words.append("TIME")
-//        words.append("ROGUE")
 
     }
     
@@ -178,10 +172,10 @@ class SynchroniseViewController: UIViewController, OEEventsObserverDelegate {
     func pocketsphinxDidReceiveHypothesis(_ hypothesis: String!, recognitionScore: String!, utteranceID: String!) {
         
         heardTextView.text = "Heard: \(hypothesis)"
-//        if hypothesis.contains("JYN") {
-//            let timestamp = NSDate().timeIntervalSince1970
-//            timeHeardTextView.text = String(timestamp)
-//        }
+        if hypothesis.contains("SHITTY JOBS") {
+            let timestamp = NSDate().timeIntervalSince1970
+            timeHeardTextView.text = String(timestamp)
+        }
         
 
     }

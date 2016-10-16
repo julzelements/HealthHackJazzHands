@@ -19,7 +19,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitles go here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azT-6V-bGo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitles go here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azT-6V-bGo">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1Bf-0A-YKQ"/>
+                                    <constraint firstAttribute="width" constant="300" id="Azl-HS-gkQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -38,7 +42,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcs-wy-hnp">
                                 <state key="normal" title="Syncronise"/>
                                 <connections>
-                                    <segue destination="QTD-JN-f7w" kind="show" id="hhP-Hd-Kzt"/>
+                                    <segue destination="QTD-JN-f7w" kind="presentation" id="hhP-Hd-Kzt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -108,6 +112,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YK-cT-rX8">
                                 <state key="normal" title="Segue button"/>
                                 <connections>
+                                    <action selector="dismissView:" destination="QTD-JN-f7w" eventType="touchUpInside" id="Md9-S1-Jan"/>
                                     <action selector="showMainScreen:" destination="QTD-JN-f7w" eventType="touchUpInside" id="TNq-lI-g1a"/>
                                 </connections>
                             </button>
@@ -134,12 +139,11 @@
                         <outlet property="recordButton" destination="ovk-4v-2RV" id="K8t-7K-149"/>
                         <outlet property="statusTextView" destination="J7W-OT-I01" id="Nm8-m3-GMY"/>
                         <outlet property="timeHeardTextView" destination="L93-dk-EXO" id="oAf-0Y-baY"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="showSubtitles" id="X9J-eB-0ZB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9XK-ay-ZDl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1044" y="117"/>
+            <point key="canvasLocation" x="1028" y="895"/>
         </scene>
     </scenes>
 </document>
