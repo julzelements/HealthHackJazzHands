@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72194C731DB211FD002A68E5 /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C721DB211FD002A68E5 /* Subtitle.swift */; };
+		72194C751DB2124A002A68E5 /* Stanza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C741DB2124A002A68E5 /* Stanza.swift */; };
+		72194C771DB219DF002A68E5 /* SubtitleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C761DB219DF002A68E5 /* SubtitleLoader.swift */; };
+		72194C791DB2216B002A68E5 /* SubtitlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */; };
 		A3133DA21DB22B7800D35B87 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3133D9F1DB22B7800D35B87 /* AcousticModelEnglish.bundle */; };
 		A3133DA31DB22B7800D35B87 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA01DB22B7800D35B87 /* OpenEars.framework */; };
 		A3133DA41DB22B7800D35B87 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA11DB22B7800D35B87 /* Slt.framework */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72194C721DB211FD002A68E5 /* Subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+		72194C741DB2124A002A68E5 /* Stanza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stanza.swift; sourceTree = "<group>"; };
+		72194C761DB219DF002A68E5 /* SubtitleLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleLoader.swift; sourceTree = "<group>"; };
+		72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlePlayer.swift; sourceTree = "<group>"; };
 		A3133D9F1DB22B7800D35B87 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
 		A3133DA01DB22B7800D35B87 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
 		A3133DA11DB22B7800D35B87 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
@@ -152,6 +160,11 @@
 				A38CEC9E1DB20020004CAEB1 /* Info.plist */,
 				A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */,
 				A38CECC41DB20CDC004CAEB1 /* SubtitleIO.swift */,
+				72194C721DB211FD002A68E5 /* Subtitle.swift */,
+				72194C741DB2124A002A68E5 /* Stanza.swift */,
+				72194C761DB219DF002A68E5 /* SubtitleLoader.swift */,
+				72194C781DB2216B002A68E5 /* SubtitlePlayer.swift */,
+				A3133DAB1DB232E300D35B87 /* sample.m */,
 				A3133DAA1DB232E300D35B87 /* HealthHackJazzHands-Bridging-Header.h */,
 				A3133DAD1DB2367400D35B87 /* SynchroniseViewController.swift */,
 			);
@@ -317,10 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3133DAE1DB2367400D35B87 /* SynchroniseViewController.swift in Sources */,
+				72194C791DB2216B002A68E5 /* SubtitlePlayer.swift in Sources */,
+				72194C771DB219DF002A68E5 /* SubtitleLoader.swift in Sources */,
+				72194C751DB2124A002A68E5 /* Stanza.swift in Sources */,
 				A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */,
 				A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */,
 				A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */,
 				A38CECC51DB20CDC004CAEB1 /* SubtitleIO.swift in Sources */,
+				72194C731DB211FD002A68E5 /* Subtitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
