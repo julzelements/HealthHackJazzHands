@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,6 +35,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcs-wy-hnp">
+                                <state key="normal" title="Syncronise"/>
+                                <connections>
+                                    <segue destination="QTD-JN-f7w" kind="show" id="hhP-Hd-Kzt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -43,6 +50,8 @@
                             <constraint firstItem="Bok-yG-NKz" firstAttribute="top" secondItem="azT-6V-bGo" secondAttribute="bottom" constant="8" id="RVi-Eu-Eig"/>
                             <constraint firstItem="azT-6V-bGo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ruk-Fl-Fci"/>
                             <constraint firstItem="vuo-4U-z60" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SuR-Zy-hkP"/>
+                            <constraint firstItem="qcs-wy-hnp" firstAttribute="top" secondItem="Bok-yG-NKz" secondAttribute="bottom" constant="8" id="bJY-66-4lP"/>
+                            <constraint firstItem="qcs-wy-hnp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mBm-fa-Y8p"/>
                         </constraints>
                     </view>
                     <connections>
@@ -52,6 +61,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Synchronise View Controller-->
+        <scene sceneID="6WY-VG-1Jk">
+            <objects>
+                <viewController id="QTD-JN-f7w" customClass="SynchroniseViewController" customModule="HealthHackJazzHands" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aKi-aV-3q7"/>
+                        <viewControllerLayoutGuide type="bottom" id="eSc-RS-hJx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xxm-Kn-BbN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovk-4v-2RV">
+                                <state key="normal" title="Record Button"/>
+                                <connections>
+                                    <action selector="recordWithSender:" destination="QTD-JN-f7w" eventType="touchUpInside" id="VbD-72-gnM"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L1q-sE-PXk">
+                                <color key="backgroundColor" red="1" green="0.90452458124119794" blue="0.67802210963966891" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="qzR-nH-RXX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J7W-OT-I01">
+                                <color key="backgroundColor" red="1" green="0.28004324185768725" blue="0.82505925251601542" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="YjK-yJ-VFU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="TIME FIRED:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L93-dk-EXO">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="m0d-f8-cyj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J7W-OT-I01" firstAttribute="centerX" secondItem="ovk-4v-2RV" secondAttribute="centerX" id="D19-s0-fum"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="trailing" secondItem="J7W-OT-I01" secondAttribute="trailing" id="FHw-AB-oPd"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="leading" secondItem="J7W-OT-I01" secondAttribute="leading" id="LKT-7s-9fI"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="trailing" secondItem="xxm-Kn-BbN" secondAttribute="trailingMargin" id="VQZ-k5-JW8"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="leading" secondItem="xxm-Kn-BbN" secondAttribute="leadingMargin" id="WTj-ul-fjF"/>
+                            <constraint firstAttribute="bottom" secondItem="L93-dk-EXO" secondAttribute="bottom" constant="20" symbolic="YES" id="dhG-kA-rud"/>
+                            <constraint firstItem="J7W-OT-I01" firstAttribute="top" secondItem="L1q-sE-PXk" secondAttribute="bottom" constant="8" symbolic="YES" id="g4b-j7-zYZ"/>
+                            <constraint firstItem="ovk-4v-2RV" firstAttribute="centerX" secondItem="L93-dk-EXO" secondAttribute="centerX" id="mlg-et-w27"/>
+                            <constraint firstItem="L93-dk-EXO" firstAttribute="leading" secondItem="xxm-Kn-BbN" secondAttribute="leadingMargin" constant="51" id="nyv-s3-lOb"/>
+                            <constraint firstItem="L1q-sE-PXk" firstAttribute="top" secondItem="aKi-aV-3q7" secondAttribute="bottom" id="pkl-5c-ssf"/>
+                            <constraint firstItem="ovk-4v-2RV" firstAttribute="centerY" secondItem="xxm-Kn-BbN" secondAttribute="centerY" id="wBx-nZ-RxB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heardTextView" destination="L1q-sE-PXk" id="J3g-Ow-vNZ"/>
+                        <outlet property="recordButton" destination="ovk-4v-2RV" id="K8t-7K-149"/>
+                        <outlet property="statusTextView" destination="J7W-OT-I01" id="Nm8-m3-GMY"/>
+                        <outlet property="timeHeardTextView" destination="L93-dk-EXO" id="oAf-0Y-baY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9XK-ay-ZDl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892" y="34.632683658170919"/>
         </scene>
     </scenes>
 </document>

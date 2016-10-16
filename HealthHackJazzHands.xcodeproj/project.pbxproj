@@ -12,7 +12,7 @@
 		A3133DA41DB22B7800D35B87 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA11DB22B7800D35B87 /* Slt.framework */; };
 		A3133DA81DB22BC200D35B87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA61DB22BC200D35B87 /* AudioToolbox.framework */; };
 		A3133DA91DB22BC200D35B87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3133DA71DB22BC200D35B87 /* AVFoundation.framework */; };
-		A3133DAC1DB232E300D35B87 /* sample.m in Sources */ = {isa = PBXBuildFile; fileRef = A3133DAB1DB232E300D35B87 /* sample.m */; };
+		A3133DAE1DB2367400D35B87 /* SynchroniseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3133DAD1DB2367400D35B87 /* SynchroniseViewController.swift */; };
 		A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */; };
 		A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38CEC911DB20020004CAEB1 /* ViewController.swift */; };
 		A38CEC951DB20020004CAEB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38CEC931DB20020004CAEB1 /* Main.storyboard */; };
@@ -51,7 +51,7 @@
 		A3133DA61DB22BC200D35B87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A3133DA71DB22BC200D35B87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A3133DAA1DB232E300D35B87 /* HealthHackJazzHands-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthHackJazzHands-Bridging-Header.h"; sourceTree = "<group>"; };
-		A3133DAB1DB232E300D35B87 /* sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sample.m; sourceTree = "<group>"; };
+		A3133DAD1DB2367400D35B87 /* SynchroniseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchroniseViewController.swift; sourceTree = "<group>"; };
 		A38CEC8C1DB20020004CAEB1 /* HealthHackJazzHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthHackJazzHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38CEC8F1DB20020004CAEB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38CEC911DB20020004CAEB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 				A38CEC9E1DB20020004CAEB1 /* Info.plist */,
 				A38CEC961DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld */,
 				A38CECC41DB20CDC004CAEB1 /* SubtitleIO.swift */,
-				A3133DAB1DB232E300D35B87 /* sample.m */,
 				A3133DAA1DB232E300D35B87 /* HealthHackJazzHands-Bridging-Header.h */,
+				A3133DAD1DB2367400D35B87 /* SynchroniseViewController.swift */,
 			);
 			path = HealthHackJazzHands;
 			sourceTree = "<group>";
@@ -316,8 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3133DAE1DB2367400D35B87 /* SynchroniseViewController.swift in Sources */,
 				A38CEC921DB20020004CAEB1 /* ViewController.swift in Sources */,
-				A3133DAC1DB232E300D35B87 /* sample.m in Sources */,
 				A38CEC981DB20020004CAEB1 /* HealthHackJazzHands.xcdatamodeld in Sources */,
 				A38CEC901DB20020004CAEB1 /* AppDelegate.swift in Sources */,
 				A38CECC51DB20CDC004CAEB1 /* SubtitleIO.swift in Sources */,
