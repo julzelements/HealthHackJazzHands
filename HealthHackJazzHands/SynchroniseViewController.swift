@@ -8,13 +8,6 @@
 
 import UIKit
 
-var lmPath: String!
-var dicPath: String!
-var words: Array<String> = []
-var currentWord: String!
-
-var kLevelUpdatesPerSecond = 18
-
 class SynchroniseViewController: UIViewController, OEEventsObserverDelegate {
     
     var openEarsEventsObserver = OEEventsObserver()
