@@ -52,7 +52,6 @@
                                 <state key="normal" title="Record Button"/>
                                 <connections>
                                     <action selector="recordWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eM9-ML-Wal"/>
-                                    <segue destination="s7N-Iz-luj" kind="presentation" identifier="startListeningSegue" id="E5t-it-XpP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,36 +86,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="149.59999999999999" y="894.60269865067471"/>
-        </scene>
-        <!--Synchronise View Controller-->
-        <scene sceneID="NQ3-LB-oNX">
-            <objects>
-                <viewController id="s7N-Iz-luj" customClass="SynchroniseViewController" customModule="HealthHackJazzHands" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kqG-ka-TgA"/>
-                        <viewControllerLayoutGuide type="bottom" id="qdQ-MW-CQR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="R9F-fB-wgw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ja-KZ-RTf">
-                                <state key="normal" title="Listening..."/>
-                                <connections>
-                                    <action selector="dimissView:" destination="s7N-Iz-luj" eventType="touchUpInside" id="4fG-au-PS6"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="2Ja-KZ-RTf" firstAttribute="centerY" secondItem="R9F-fB-wgw" secondAttribute="centerY" id="h3G-yJ-4pz"/>
-                            <constraint firstItem="2Ja-KZ-RTf" firstAttribute="centerX" secondItem="R9F-fB-wgw" secondAttribute="centerX" id="mnL-aH-Ib0"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ks2-Ng-Ole" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="996" y="895"/>
         </scene>
     </scenes>
 </document>
