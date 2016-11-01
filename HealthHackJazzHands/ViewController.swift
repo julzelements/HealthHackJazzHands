@@ -33,11 +33,6 @@ class ViewController: UIViewController , OEEventsObserverDelegate {
   
     @IBAction func playSubtitle(_ sender: AnyObject) {
         subtitles = Subtitle()
-        
-      // stop previous timer (if any)
-      // lookup stanza to play
-      // start timer
-        //  subtitleDisplay.text = subtitleInteger.text
         let i = Int(subtitleInteger.text!) ?? 0
         
         startShowing(index: i)
@@ -63,9 +58,6 @@ class ViewController: UIViewController , OEEventsObserverDelegate {
             }
         }
         subtitleDisplay.text = ""
-//        // let elapsed = startedAt.timeIntervalSinceNow  
-//        // subtitleDisplay.text = elapsed.description
-//        subtitleDisplay.text = elapsed.description
     }
     
     
